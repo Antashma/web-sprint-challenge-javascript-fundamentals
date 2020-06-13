@@ -1,0 +1,9 @@
+Briefly compare and contrast .forEach & .map (2-3 sentences max)
+
+Explain the difference between a callback and a higher order function.
+
+What is closure?
+
+Describe the four rules of the 'this' keyword.
+
+Why do we need super() in an extended class?
