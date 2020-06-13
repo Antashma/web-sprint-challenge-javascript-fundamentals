@@ -18,7 +18,7 @@ myFunction();
 
 // Explanation: 
 console.log( '## task one: explanation ## \n',
-  'The nested function can access the variable internal because they are in the same scope. The varibable internal is declared in the myFunction (functional) scope which is the block scope that nestedFunction is within.'
+  'The nested function can access the variable internal because they are in the same scope. The variable internal is declared in the functional/block scope of myFunction, which is the same scope that nestedFunction is declared as well. nestedFunction will have the variable internal in its memory should it need to refer to it while it is running.'
 );
 
 /* Task 2: Counter */
@@ -31,4 +31,4 @@ function summation(num) {
   }  
   return arr.reduce((acc, val) => acc + val)
 }
-console.log('SUMMATION OF 4:', summation(10));
+console.log(summation(10));
